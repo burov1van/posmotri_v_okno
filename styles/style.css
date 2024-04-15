@@ -177,12 +177,7 @@ fieldset {
   height: 34px;
 }
 
-.content__details {
-  display: flex;
-  flex-direction: column;
-  height: inherit;
-  width: inherit;
-}
+
 
 .title {
   font-family: Oswald, sans-serif;
@@ -197,12 +192,7 @@ fieldset {
   color: rgba(84, 80, 80, 1);
 }
 
-.content__accent:after {
-  content: "-";
-  position: relative;
-  bottom: 0.1em;
-  left: -1px;
-}
+
 
 .content__list {
   max-height: 298px;
@@ -280,6 +270,7 @@ fieldset {
   font-weight: 700;
   text-align: left;
   margin-bottom: 7px;
+  line-height: 30px;
 }
 
 .content__video-card-description {
