@@ -13,4 +13,9 @@
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
+  font-weight: normal;
+  line-height: 110%;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+
 }

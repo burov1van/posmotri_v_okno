@@ -195,7 +195,7 @@ fieldset {
 
 
 .content__list {
-  max-height: 298px;
+  height: 298px;
   margin-top: 26px;
   display: flex;
   flex-direction: column;
