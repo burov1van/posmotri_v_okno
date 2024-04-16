@@ -96,15 +96,16 @@ fieldset {
   height: 27px;
   background-color: transparent;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
   text-align: left;
+  appearance: none;
 }
 
 .search-form__textfield::placeholder {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
@@ -114,11 +115,11 @@ fieldset {
 
 .search-form__label {
   display: flex;
-  gap: 5px;
+  column-gap: 5px;
 }
 .search-form__checkbox-list {
   display: flex;
-  gap: 15px;
+  column-gap: 15px;
 }
 
 .search-form__pseudo-checkbox {
